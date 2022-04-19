@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joey Zheng</title><link>https://joeyzheng5403.github.io/</link><description>A digital enthusiast.</description><atom:link href="https://joeyzheng5403.github.io/zh_cn/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2022 &lt;a href="mailto:joeyzheng5403@gmail.com"&gt;Joey Zheng&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Mar 2022 04:21:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>It's a very long road for github pages.</title><link>https://joeyzheng5403.github.io/zh_cn/posts/its-a-very-long-road-for-github-pages/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;At first, I use jekyll.
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joey Zheng</title><link>https://joeyzheng5403.github.io/</link><description>A digital enthusiast.</description><atom:link href="https://joeyzheng5403.github.io/zh_cn/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2022 &lt;a href="mailto:joeyzheng5403@gmail.com"&gt;Joey Zheng&lt;/a&gt; </copyright><lastBuildDate>Tue, 19 Apr 2022 13:12:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs,I'm back!</title><link>https://joeyzheng5403.github.io/zh_cn/posts/emacsim-back/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;I change from Emacs and vim so many times.
+And use SpaceVim and SpaceEmacs.
+Finally I start to build my own Emacs conf.
+This blog will record any thing I learn how to use Emacs.&lt;/p&gt;
+&lt;h3&gt;Searching and Replacing in Multiple Files&lt;/h3&gt;
+&lt;p&gt;A cool trick I learned recently is the ability to search and replace in multiple files.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;With helm-ag you can search through all files in your projectile project with SPC / or SPC s p.&lt;/li&gt;
+&lt;li&gt;Enter your search query and a list of files with that occurrence will show up&lt;/li&gt;
+&lt;li&gt;Then hit C-c C-e and Spacemacs will create a helm-ag-edit buffer&lt;/li&gt;
+&lt;li&gt;Now you can use any command you’d normally be able to run on a buffer. For example, a simple Vim search and replace %s/alice/bob/g.&lt;/li&gt;
+&lt;li&gt;Then hit C-c C-c to save the changes.&lt;/li&gt;
+&lt;/ol&gt;</description><guid>https://joeyzheng5403.github.io/zh_cn/posts/emacsim-back/</guid><pubDate>Fri, 15 Apr 2022 10:54:29 GMT</pubDate></item><item><title>Retire My Mouse</title><link>https://joeyzheng5403.github.io/zh_cn/posts/retire-my-mouse/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;I feel my fingers quiet hurt when I got home.espisholy my forefinger.
+maybe it's because use the mouse too much.
+so today i'm trying to retire my mouse.
+this post will record some knowledge when I through the path.&lt;/p&gt;</description><guid>https://joeyzheng5403.github.io/zh_cn/posts/retire-my-mouse/</guid><pubDate>Fri, 15 Apr 2022 10:47:51 GMT</pubDate></item><item><title>It's a very long road for github pages.</title><link>https://joeyzheng5403.github.io/zh_cn/posts/its-a-very-long-road-for-github-pages/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;At first, I use jekyll.
 finally I use nikola.&lt;/p&gt;</description><guid>https://joeyzheng5403.github.io/zh_cn/posts/its-a-very-long-road-for-github-pages/</guid><pubDate>Wed, 24 Nov 2021 09:04:25 GMT</pubDate></item></channel></rss>
