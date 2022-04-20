@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://joeyzheng5403.github.io/archive.html</loc>
-  <lastmod>2022-04-19T13:12:00Z</lastmod>
+  <lastmod>2022-04-20T07:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://joeyzheng5403.github.io/categories/</loc>
@@ -46,6 +46,10 @@
   <lastmod>2022-04-19T13:12:00Z</lastmod>
  </url>
  <url>
+  <loc>https://joeyzheng5403.github.io/posts/words-which-i-spell-it-wrong/</loc>
+  <lastmod>2022-04-20T07:19:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://joeyzheng5403.github.io/zh_cn/</loc>
   <lastmod>2022-04-19T13:12:00Z</lastmod>
  </url>
@@ -59,7 +63,7 @@
  </url>
  <url>
   <loc>https://joeyzheng5403.github.io/zh_cn/archive.html</loc>
-  <lastmod>2022-04-19T13:12:00Z</lastmod>
+  <lastmod>2022-04-20T07:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://joeyzheng5403.github.io/zh_cn/categories/</loc>
@@ -83,5 +87,10 @@
   <loc>https://joeyzheng5403.github.io/zh_cn/posts/retire-my-mouse/</loc>
   <lastmod>2022-04-19T13:12:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://joeyzheng5403.github.io/posts/retire-my-mouse/" />
+ </url>
+ <url>
+  <loc>https://joeyzheng5403.github.io/zh_cn/posts/words-which-i-spell-it-wrong/</loc>
+  <lastmod>2022-04-20T07:19:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://joeyzheng5403.github.io/posts/words-which-i-spell-it-wrong/" />
  </url>
 </urlset>
