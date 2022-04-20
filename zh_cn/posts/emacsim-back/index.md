@@ -11,8 +11,25 @@
 
 I change from Emacs and vim so many times.
 And use SpaceVim and SpaceEmacs.
-Finally I start to build my own Emacs conf.
+After a little try my own config,I found it's have to use SpaceEmacs.
+So I start to read SpaceEmacs' doc.
+
 This blog will record any thing I learn how to use Emacs.
+
+## Open emacs in terminal 
+It's quite easy to open emacs in terminal
+```
+emacs -nw
+```
+but if you load a lot of plugin, it's a little slow to start.
+so I aways run emacs as deamon 
+```
+emacs --deamon
+```
+and use a client in terminal
+```
+emacsclient -nw somefile
+```
 
 ## Searching and Replacing in Multiple Files
 A cool trick I learned recently is the ability to search and replace in multiple files.

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joey Zheng</title><link>https://joeyzheng5403.github.io/</link><description>A digital enthusiast.</description><atom:link href="https://joeyzheng5403.github.io/zh_cn/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2022 &lt;a href="mailto:joeyzheng5403@gmail.com"&gt;Joey Zheng&lt;/a&gt; </copyright><lastBuildDate>Tue, 19 Apr 2022 13:12:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs,I'm back!</title><link>https://joeyzheng5403.github.io/zh_cn/posts/emacsim-back/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;I change from Emacs and vim so many times.
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joey Zheng</title><link>https://joeyzheng5403.github.io/</link><description>A digital enthusiast.</description><atom:link href="https://joeyzheng5403.github.io/zh_cn/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2022 &lt;a href="mailto:joeyzheng5403@gmail.com"&gt;Joey Zheng&lt;/a&gt; </copyright><lastBuildDate>Wed, 20 Apr 2022 02:59:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs,I'm back!</title><link>https://joeyzheng5403.github.io/zh_cn/posts/emacsim-back/</link><dc:creator>Joey Zheng</dc:creator><description>&lt;p&gt;I change from Emacs and vim so many times.
 And use SpaceVim and SpaceEmacs.
-Finally I start to build my own Emacs conf.
-This blog will record any thing I learn how to use Emacs.&lt;/p&gt;
+After a little try my own config,I found it's have to use SpaceEmacs.
+So I start to read SpaceEmacs' doc.&lt;/p&gt;
+&lt;p&gt;This blog will record any thing I learn how to use Emacs.&lt;/p&gt;
+&lt;h3&gt;Open emacs in terminal&lt;/h3&gt;
+&lt;p&gt;It's quite easy to open emacs in terminal&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;emacs -nw
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but if you load a lot of plugin, it's a little slow to start.
+so I aways run emacs as deamon &lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;emacs --deamon
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and use a client in terminal&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;emacsclient -nw somefile
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3&gt;Searching and Replacing in Multiple Files&lt;/h3&gt;
 &lt;p&gt;A cool trick I learned recently is the ability to search and replace in multiple files.&lt;/p&gt;
 &lt;ol&gt;
