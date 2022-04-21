@@ -130,7 +130,25 @@ so I aways run emacs as deamon </p>
 <li>Now you can use any command you’d normally be able to run on a buffer. For example, a simple Vim search and replace %s/alice/bob/g.</li>
 <li>Then hit C-c C-c to save the changes.</li>
 </ol>
-</div>
+<h3>How to run an emacs lisp program in the <em>scratch</em> buffer</h3>
+<ol>
+<li>start emacs</li>
+<li>in the scratch buffer, type:(+ 2 2)</li>
+<li>press<code>CTRL-X CTRL-E</code>
+you should get<code>4</code>in the echo area at the bottom of the screen
+See also the Run a Program section in An Introduction to Emacs Lisp Programming</li>
+</ol>
+<h3>Delete file in Emacs</h3>
+<p>In Dired </p>
+<p>d
+Flag this file for deletion (dired-flag-file-deletion).
+u
+Remove the deletion flag (dired-unmark).
+DEL
+Move point to previous line and remove the deletion flag on that line (dired-unmark-backward).
+x
+Delete files flagged for deletion (dired-do-flagged-delete).</p>
+                </div>
             </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/retire-my-mouse/" class="u-url">Retire My Mouse</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">

@@ -2,7 +2,7 @@
 .. title: Emacs,I'm back!
 .. slug: emacsim-back
 .. date: 2022-04-15 18:54:29 UTC+08:00
-.. tags: 
+.. tags: emacs
 .. category: 
 .. link: 
 .. description: 
@@ -39,3 +39,22 @@ A cool trick I learned recently is the ability to search and replace in multiple
 3. Then hit C-c C-e and Spacemacs will create a helm-ag-edit buffer
 4. Now you can use any command you’d normally be able to run on a buffer. For example, a simple Vim search and replace %s/alice/bob/g.
 5. Then hit C-c C-c to save the changes.
+
+## How to run an emacs lisp program in the *scratch* buffer
+1. start emacs
+2. in the scratch buffer, type:(+ 2 2)
+3. press`CTRL-X CTRL-E`
+you should get`4`in the echo area at the bottom of the screen
+See also the Run a Program section in An Introduction to Emacs Lisp Programming
+
+## Delete file in Emacs
+In Dired 
+
+d
+Flag this file for deletion (dired-flag-file-deletion).
+u
+Remove the deletion flag (dired-unmark).
+DEL
+Move point to previous line and remove the deletion flag on that line (dired-unmark-backward).
+x
+Delete files flagged for deletion (dired-do-flagged-delete).
